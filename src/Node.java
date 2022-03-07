@@ -5,6 +5,7 @@ public class Node {
     public Node(String item)
     {
         key = item;
-        left = right = null;
+        left = null;
+        right = null;
     }
 }
